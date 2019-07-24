@@ -3,10 +3,10 @@ MAINTAINER felicityzzz
 RUN apt-get update && \
 apt-get install gcc -y && \
 apt-get install g++ -y && \
-apt-get install gdb -y && \
-apt-get install python-software-properties -y && \
-apt-get install software-properties-common -y && \
-add-apt-repository ppa:jonathonf/python-3.6 -y && \
+apt-get install gdb -y 
+RUN apt-get install python-software-properties -y
+RUN apt-get install software-properties-common -y 
+RUN add-apt-repository ppa:jonathonf/python-3.6 -y && \
 apt-get update && \
 apt-get install python3.6 -y && \
 rm /usr/bin/python  && \
