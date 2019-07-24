@@ -19,4 +19,4 @@ rm /usr/bin/pip3 &&
 ln -s /usr/local/bin/pip3 /usr/bin/pip3 &&
 rm /usr/bin/pip &&
 ln -s /usr/local/bin/pip3 /usr/bin/pip &&
-pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple &&
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
